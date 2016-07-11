@@ -1,3 +1,3 @@
 # packages
 
-RPM .spec files for various applictations missing from stock Fedora 24.
+RPM .spec files for various applications missing from stock Fedora 24.
