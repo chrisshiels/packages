@@ -4,7 +4,7 @@
 
 Name:       ffmpeg
 Version:    2.8.7
-Release:    1.mecachis.fc24
+Release:    2.mecachis.fc24
 BuildArch:  x86_64
 Group:      Mecachis
 License:    GPLv2, GPLv3, LGPLv2.1 and LGPLv3
@@ -17,6 +17,9 @@ Source0:    https://ffmpeg.org/releases/ffmpeg-2.8.7.tar.xz
 
 
 BuildRequires:  yasm
+
+BuildRequires:  lame
+Requires:       lame
 
 
 %description
@@ -44,6 +47,7 @@ transcoding, streaming and playing.
         --prefix=/usr/local \
         --enable-shared \
         --enable-pic \
+	--enable-libmp3lame \
 	--disable-stripping \
 	--enable-rpath
 make %{?_smp_mflags}
@@ -83,5 +87,8 @@ rm -rf %{buildroot}
 
 
 %changelog
+* Sun Oct 23 2016 Chris Shiels <chris@mecachis.net> 2.8.7-2.mecachis.fc24
+- Added support for libmp3lame encoder.
+
 * Thu Jul 7 2016 Chris Shiels <chris@mecachis.net> 2.8.7-1.mecachis.fc24
 - Initial release.
