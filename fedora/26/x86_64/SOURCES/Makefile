@@ -2,15 +2,15 @@
 # Chris Shiels.
 
 
-TARGETS = ffmpeg-3.4.tar.xz \
+TARGETS = ffmpeg-2.8.13.tar.xz \
 	  vlc-2.2.4.tar.xz
 
 
 all: $(TARGETS)
 
 
-ffmpeg-3.4.tar.xz:
-	curl -L -O https://www.ffmpeg.org/releases/ffmpeg-3.4.tar.xz
+ffmpeg-2.8.13.tar.xz:
+	curl -L -O https://www.ffmpeg.org/releases/ffmpeg-2.8.13.tar.xz
 
 
 vlc-2.2.4.tar.xz:

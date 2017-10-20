@@ -3,7 +3,7 @@
 
 
 Name:       ffmpeg
-Version:    3.4
+Version:    2.8.13
 Release:    1.mecachis.fc26
 BuildArch:  x86_64
 Group:      Mecachis
@@ -13,7 +13,7 @@ URL:        https://www.ffmpeg.org/
 Summary:    Record, convert and stream audio and video
 
 
-Source0:    https://www.ffmpeg.org/releases/ffmpeg-3.4.tar.xz
+Source0:    https://www.ffmpeg.org/releases/ffmpeg-2.8.13.tar.xz
 
 
 BuildRequires:  yasm
@@ -87,5 +87,5 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Fri Oct 20 2017 Chris Shiels <chris@mecachis.net> 3.4-1.mecachis.fc26
+* Fri Oct 20 2017 Chris Shiels <chris@mecachis.net> 2.8.13-1.mecachis.fc26
 - Initial release.
