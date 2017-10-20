@@ -5,7 +5,6 @@
 TARGETS = audacious-3.7.2-gtk3.tar.bz2 \
 	  audacious-plugins-3.7.2-gtk3.tar.bz2 \
 	  ffmpeg-3.4.tar.xz \
-	  grip-3.2.0.tar.gz \
 	  vlc-2.2.4.tar.xz
 
 
@@ -22,10 +21,6 @@ audacious-plugins-3.7.2-gtk3.tar.bz2:
 
 ffmpeg-3.4.tar.xz:
 	curl -L -O https://www.ffmpeg.org/releases/ffmpeg-3.4.tar.xz
-
-
-grip-3.2.0.tar.gz:
-	curl -L -O https://sourceforge.net/projects/grip/files/grip/3.2.0/grip-3.2.0.tar.gz
 
 
 vlc-2.2.4.tar.xz:
