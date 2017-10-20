@@ -3,22 +3,22 @@
 
 
 Name:       ffmpeg
-Version:    2.8.7
-Release:    2.mecachis.fc24
+Version:    3.4
+Release:    1.mecachis.fc26
 BuildArch:  x86_64
 Group:      Mecachis
 License:    GPLv2, GPLv3, LGPLv2.1 and LGPLv3
 Vendor:     Mecachis
-URL:        https://ffmpeg.org/
+URL:        https://www.ffmpeg.org/
 Summary:    Record, convert and stream audio and video
 
 
-Source0:    https://ffmpeg.org/releases/ffmpeg-2.8.7.tar.xz
+Source0:    https://www.ffmpeg.org/releases/ffmpeg-3.4.tar.xz
 
 
 BuildRequires:  yasm
 
-BuildRequires:  lame
+BuildRequires:  lame-devel
 Requires:       lame
 
 
@@ -87,8 +87,5 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Sun Oct 23 2016 Chris Shiels <chris@mecachis.net> 2.8.7-2.mecachis.fc24
-- Added support for libmp3lame encoder.
-
-* Thu Jul 7 2016 Chris Shiels <chris@mecachis.net> 2.8.7-1.mecachis.fc24
+* Fri Oct 20 2017 Chris Shiels <chris@mecachis.net> 3.4-1.mecachis.fc26
 - Initial release.

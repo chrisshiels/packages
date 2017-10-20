@@ -4,7 +4,7 @@
 
 TARGETS = audacious-3.7.2-gtk3.tar.bz2 \
 	  audacious-plugins-3.7.2-gtk3.tar.bz2 \
-	  ffmpeg-2.8.7.tar.xz \
+	  ffmpeg-3.4.tar.xz \
 	  grip-3.2.0.tar.gz \
 	  id3lib-3.8.3.tar.gz \
 	  lame-3.99.5.tar.gz \
@@ -23,8 +23,8 @@ audacious-plugins-3.7.2-gtk3.tar.bz2:
 	curl -L -O http://distfiles.audacious-media-player.org/audacious-plugins-3.7.2-gtk3.tar.bz2
 
 
-ffmpeg-2.8.7.tar.xz:
-	curl -L -O https://ffmpeg.org/releases/ffmpeg-2.8.7.tar.xz
+ffmpeg-3.4.tar.xz:
+	curl -L -O https://www.ffmpeg.org/releases/ffmpeg-3.4.tar.xz
 
 
 grip-3.2.0.tar.gz:
