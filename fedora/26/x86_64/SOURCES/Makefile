@@ -7,7 +7,6 @@ TARGETS = audacious-3.7.2-gtk3.tar.bz2 \
 	  ffmpeg-3.4.tar.xz \
 	  grip-3.2.0.tar.gz \
 	  id3lib-3.8.3.tar.gz \
-	  lame-3.99.5.tar.gz \
 	  mpg123-1.23.6.tar.bz2 \
 	  vlc-2.2.4.tar.xz
 
@@ -33,10 +32,6 @@ grip-3.2.0.tar.gz:
 
 id3lib-3.8.3.tar.gz:
 	curl -L -O https://sourceforge.net/projects/id3lib/files/id3lib/3.8.3/id3lib-3.8.3.tar.gz
-
-
-lame-3.99.5.tar.gz:
-	curl -L -O https://sourceforge.net/projects/lame/files/lame/3.99/lame-3.99.5.tar.gz
 
 
 mpg123-1.23.6.tar.bz2:
