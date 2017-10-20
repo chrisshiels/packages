@@ -3,7 +3,7 @@
 
 
 Name:       vlc
-Version:    2.2.4
+Version:    2.2.6
 Release:    1.mecachis.fc24
 BuildArch:  x86_64
 Group:      Mecachis
@@ -13,7 +13,7 @@ URL:        http://www.videolan.org/
 Summary:    Cross-platform multimedia player and framework
 
 
-Source0:    http://get.videolan.org/vlc/2.2.4/vlc-2.2.4.tar.xz
+Source0:    http://get.videolan.org/vlc/2.2.6/vlc-2.2.6.tar.xz
 
 
 BuildRequires:  alsa-lib-devel
@@ -87,5 +87,5 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Thu Jul 7 2016 Chris Shiels <chris@mecachis.net> 2.2.4-1.mecachis.fc24
+* Fri Oct 20 2017 Chris Shiels <chris@mecachis.net> 2.2.6-1.mecachis.fc24
 - Initial release.
