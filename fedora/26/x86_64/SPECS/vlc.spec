@@ -4,7 +4,7 @@
 
 Name:       vlc
 Version:    2.2.6
-Release:    1.mecachis.fc24
+Release:    1.mecachis.fc26
 BuildArch:  x86_64
 Group:      Mecachis
 License:    GPLv2 and LGPLv2.1
