@@ -3,8 +3,8 @@
 
 
 Name:       vlc
-Version:    2.2.6
-Release:    1.mecachis.fc26
+Version:    3.0.7.1
+Release:    1.mecachis.fc30
 BuildArch:  x86_64
 Group:      Mecachis
 License:    GPLv2 and LGPLv2.1
@@ -13,14 +13,15 @@ URL:        http://www.videolan.org/
 Summary:    Cross-platform multimedia player and framework
 
 
-Source0:    http://get.videolan.org/vlc/2.2.6/vlc-2.2.6.tar.xz
+Source0:    http://get.videolan.org/vlc/3.0.7.1/vlc-3.0.7.1.tar.xz
 
 
 BuildRequires:  alsa-lib-devel
+BuildRequires:  gcc
 BuildRequires:  libgcrypt-devel
 BuildRequires:  libva-devel
 BuildRequires:  lua-devel
-BuildRequires:  qt-devel
+BuildRequires:  qt5-devel
 BuildRequires:  xcb-util-keysyms-devel
 Requires:       alsa-lib
 Requires:       libgcrypt
@@ -73,6 +74,7 @@ rm -rf %{buildroot}
 /usr/local/share/kde4/apps/solid/actions/*
 /usr/local/share/locale/*/LC_MESSAGES/*
 /usr/local/share/man/man1/*
+/usr/local/share/metainfo/vlc.appdata.xml
 /usr/local/share/vlc
 %doc ABOUT-NLS
 %doc AUTHORS
@@ -87,5 +89,5 @@ rm -rf %{buildroot}
 
 
 %changelog
-* Fri Oct 20 2017 Chris Shiels <chris@mecachis.net> 2.2.6-1.mecachis.fc24
+* Sun Jul 21 2019 Chris Shiels <chris@mecachis.net> 3.0.7.1-1.mecachis.fc30
 - Initial release.
